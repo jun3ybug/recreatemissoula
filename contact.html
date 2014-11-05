@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Recreate Missoula">
+    <meta name="author" content="Recreate Missoula">
+
+    <title>Recreate Missoula</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Recreate Missoula</a>
+        </div>
+         <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="flyfish.html">Fly Fishing</a></li>
+            <li><a href="hangglide.html">Hang Gliding</a></li>
+            <li><a href="hike.html">Hiking</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Other Activities <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="cycle.html">Cycling</a></li>
+                <li class="active"><a href="mtbbike.html">Mountain Biking</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <h2>Contact Me</h2>
+            <form>
+              <div class="form-group name">
+                  <label for="inputName">Name:*</label>
+                  <input type="text" class="form-control" id="name" placeholder="Name">
+                  <span class="help-block"></span>
+              </div>
+              <div class="form-group email">
+                  <label for="inputEmail">Email Address:*</label>
+                  <input type="text" class="form-control" id="email" placeholder="Email">
+                  <span class="help-block"></span>
+              </div>
+              <div class="form-group activitygroup">
+                  <label for="activity">Select the activity you'd like to try in Missoula:</label>
+                  <select id="activity" class="form-control">
+                    <option checked>Please select one:</option>
+                    <option value="flyfish">Fly Fishing</option>
+                    <option value="hangglide">Hang Gliding</option>
+                    <option value="hiking">Hiking</option>
+                    <option value="mtnbike">Mountain Biking</option>
+                  </select>
+                  <span class="help-block"></span>
+              </div>
+              <div class="form-group">
+                  <label for="message">Leave me a message for any additional request(s):</label>
+                  <textarea class="form-control" rows="3" placeholder="Leave me a Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+        </div>
+      </div>
+    </div><!-- /.container -->
+
+    <footer class="bottom"><p>Copyright © 2014 - Recreate Missoula</p></footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
